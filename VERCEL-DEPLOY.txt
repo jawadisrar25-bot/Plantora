@@ -1,0 +1,16 @@
+PLANTORA — VERCEL DEPLOYMENT
+
+This package is Vercel-ready.
+
+IMPORTANT:
+1. Upload/deploy the CONTENTS of this folder as the project root.
+2. index.html and vercel.json must be at the repository/project root.
+3. Do not put all files inside another folder such as plantora-v8/ in the GitHub repository.
+4. Vercel Framework Preset: Other
+5. Build Command: leave empty
+6. Output Directory: leave empty
+
+CSS SAFETY FIX:
+- Full Plantora CSS is embedded directly inside every HTML page.
+- The normal assets/css/style.css file is also included.
+- Therefore the site remains styled even if an external stylesheet path is misconfigured or cached incorrectly.
